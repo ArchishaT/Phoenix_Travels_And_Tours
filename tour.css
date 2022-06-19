@@ -1,0 +1,175 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+    background:  linear-gradient(rgba(0,0,0,0.5),#55dce6),url(travel.jpg);
+    
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
+    text-align: center;
+    scroll-behavior: smooth;
+    scroll-snap-type:mandatory;
+   
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+}
+.book{
+    text-decoration: underline;
+    color: rgb(134, 227, 116);
+    font-family: cursive; 
+    font-size: 20px;
+}
+
+.book:hover{
+    color: aliceblue;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.header img {
+    width: 170px;
+    float: right;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+.login-btn {
+   width: 250px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    font-family: monospace;
+    
+    
+}
+
+.menu-bar{
+    background: rgb(206, 153, 255);
+    text-align: center;
+     z-index: 999;
+    position: fixed;
+    float: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+    
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+#nav{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.abc{
+    color: #fff;
+    font-size: 100px;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 1px;
+    
+} 
+.menu-bar ul li:hover{
+    color: #000000;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    text-align: center;
+    font-family:cursive;
+}
+header p{
+    margin: 18px 0;
+    text-align: center;
+    font-family: cursive;
+}
+#destination{
+    color: #fff;
+    font-family: cursive;
+}
+#travel{
+    color: #fff;
+    font-family: cursive;
+}
+
+
+.img1{
+    border-radius: 10px;
+     width: 300px;
+    height: 100px;
+}
+    .img2{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+    .img3{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+   .img{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+.partner{
+   padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;}
+
+
+
+.thanks{
+    font-size: 100px;
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+}
+.myLogo{
+    width: 300px;
+    height: 250px;
+}
+.airindia{
+    border-radius: 10px;
+     width: 300px;
+    height: 100px;
+}
+.partnerss{
+    color: #fff;
+}
